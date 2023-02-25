@@ -25,3 +25,12 @@
       --smaller-font-size: .875rem;
     }
   }
+  
+*, ::before, ::after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
