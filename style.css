@@ -147,4 +147,12 @@
     top: 2rem;
     background-color: var(--first-color);
   }
+  .nav__logo {
+    color: var(--second-color);
+  }
   
+  .nav__toggle {
+    color: var(--second-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
