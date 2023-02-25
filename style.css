@@ -204,16 +204,29 @@
   }
   
 .home__img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 260px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 260px;
+}
+
+.home__blob {
+  fill: var(--first-color);
+}
+
+.home__blob-img {
+  width: 360px;
+}
+.button {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: .75rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: .5rem;
+    transition: .3s;
   }
   
-  .home__blob {
-    fill: var(--first-color);
-  }
-  
-  .home__blob-img {
-    width: 360px;
+  .button:hover {
+    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
   }
