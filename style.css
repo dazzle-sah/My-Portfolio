@@ -43,10 +43,10 @@
     color: var(--second-color);
   }
   
-  h1, h2, p {
+  /* h1, h2, p {
     margin: 0;
   }
-  
+   */
   ul {
     margin: 0;
     padding: 0;
@@ -396,6 +396,7 @@
   .footer__title {
     font-size: 1rem;
     margin-bottom: var(--mb-4);
+    padding-top: 5px;
   }
   
   /* .footer__social {
