@@ -401,6 +401,7 @@
   
   /* .footer__social {
     margin-bottom: var(--mb-4);
+    display: flex;
   } */
   
   .footer__icon {
