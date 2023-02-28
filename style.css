@@ -726,22 +726,26 @@
       
  }
  .skills-main-container{
-  display: flex;
+  
+  /* display: flex; */
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
   margin-left: 39%;
+  column-gap: 4rem;
   
   
   /* float: left; */
   /* width: 95%; */
 }
 .skills__container {
-  grid-template-columns: 0.5fr;
+  grid-template-columns: repeat(3, 3fr);
+  /* grid-template-columns: 0.5fr; */
   justify-content: space-evenly;
-  column-gap: 0.3rem;
+  /* column-gap: 0.3rem; */
+ 
   align-items: center;
-  padding: 17%;
+  /* padding: 17%; */
 }
 
 div .skills__names{
