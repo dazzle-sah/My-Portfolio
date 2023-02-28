@@ -708,7 +708,9 @@
       margin-right: auto;
     }
     .home {
-      padding: 10rem 0 2rem;
+        top: 1%;
+        margin-left: 12%;
+      /* padding: 10rem 0 2rem; */
     }
     .home__img {
       width: 450px;
@@ -748,14 +750,11 @@ div .skills__names{
 }
 .skills__icon{
   float: left;
-  width: 120px;
+  width: 100px;
   height: 40px;
   padding: 2px;
 }
 
-.home{
-  margin-left: 12%;
-}
 
 .button{
   height: 70px;
