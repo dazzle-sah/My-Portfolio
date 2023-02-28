@@ -457,9 +457,10 @@
       justify-self: center;
       /* left: 60%; */
     }
-    .skills__container{
+    .skills-main-container{
       /* grid-template-columns: repeat(1, 2fr); */
       max-width: 400px;
+      display: flex;
       flex-direction: column;
     }
     .home__data{
