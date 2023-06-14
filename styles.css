@@ -432,6 +432,9 @@ color: #1dadd5;
     width: 30%;
     padding-top: -5%;
 }
+.but:hover{
+  background-color: #E4D9FF;
+}
 .but a{
   text-decoration: none;
   color: #091233;
@@ -480,6 +483,7 @@ margin-bottom: 5%;
     margin-bottom: -5%;
 
 }
+
 .subb{
   border: 11px ridge #1dadd5;
   margin-left: 10%;
@@ -522,6 +526,9 @@ text-justify: inter-word;
 ul{
   list-style: none;
 }
+.subb a{
+  text-decoration: none;
+}
 .positionn{
   font-size: 50px;
   /* font-weight: 600; */
@@ -533,10 +540,10 @@ font-weight: 700;
 text-decoration: none;
 font-style:normal;
 font-variant: normal;
-
 text-decoration:none;
 text-transform: none;
 }
+
 
 .position{
   font-size: 23px;
@@ -594,7 +601,9 @@ text-transform: none;
   font-variant: normal;
   text-transform: none;
 }
-
+/* .durationn:hover{
+  color: #01040e;
+} */
 .durationn{
   
   text-decoration:none;
@@ -625,6 +634,26 @@ text-transform: none;
   max-width: 450px;
   color: whitesmoke;
 }
+.cardd:hover{
+  opacity: 0.8;
+  background-color:#0A1128 ;
+ 
+}
+.cis-text a{
+  text-decoration: none;
+}
+.cis-text a :hover{
+color: #62a7cf;
+}
+/* .hov:hover{
+  color: #0A1128;
+  text-decoration:none;
+  font-family: 'Diphylleia', serif;
+  font-size: 20px;
+}
+.hov{
+  display: none;
+} */
 .card {
     margin-top: -10%;
     /* width: 80%; */
