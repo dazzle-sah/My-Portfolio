@@ -22,14 +22,14 @@
   
 }
 
-@media screen and (min-width: 968px) {
+/* @media screen and (min-width: 968px) {
     :root {
       --big-font-size: 3.5rem;
       --h2-font-size: 2rem;
       --normal-font-size: 1rem;
       --smaller-font-size: .875rem;
     }
-  }
+  } */
 
 *, ::before, ::after {
     box-sizing: border-box;
@@ -122,7 +122,7 @@
   } */
 
   
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     .nav__menu {
       /* position: fixed; */
       /* top: var(--header-height); */
@@ -132,17 +132,17 @@
       /* padding: 2rem; */
       /* background-color: var(--second-color); */
       /* transition: .5s; */
-      /* max-width: 100%; */
+      /* max-width: 100%; 
     }
     .skills-main-container{
       display: flex;
       align-items: center;
       flex-direction: column;
       justify-content: space-around;
-      /* margin-left: 39%; */
+      /* margin-left: 39%; 
       column-gap: 4rem;
     }
-  }
+  } */
 /*   
   .nav__item {
     margin-bottom: var(--mb-4);
@@ -538,7 +538,7 @@ h1 .type3{
   }
   
   /* ===== MEDIA QUERIES=====*/
-  @media screen and (max-width: 320px) {
+  /* @media screen and (max-width: 320px) {
     .home {
       row-gap: 2rem;
     }
@@ -550,7 +550,7 @@ h1 .type3{
       align-items: center;
       flex-direction: column;
       justify-content: space-around;
-      /* margin-left: 39%; */
+      /* margin-left: 39%; 
       column-gap: 4rem;
     }
     .home__title{
@@ -559,9 +559,9 @@ h1 .type3{
       justify-self: center;
       }
 
-  }
-  @media screen and (min-width: 320px) {
-  .root{
+  } */
+   /* @media screen and (min-width: 320px) { */
+  /*.root{
     align-items: center;
     margin-left: auto;
   }
@@ -579,9 +579,9 @@ h1 .type3{
       display: none;
     }
     .res{
-      /* margin-left: 10%; */
+      /* margin-left: 10%; 
       position: relative;
-    }
+     } */
     .home__title{
       align-items: center;
       text-align: center;
@@ -622,7 +622,7 @@ h1 .type3{
       text-align: center;
       margin-top: 20px;
       /* margin-bottom: var(--mb-4); */
-      /* padding-top: 5px; */
+      /* padding-top: 5px; 
      }
      .footer-social-icon{
       height: 10px;
@@ -641,21 +641,21 @@ h1 .type3{
       flex-direction: column;
       justify-content: center;
      }
-  }
+  } */
 
-  @media screen and (min-width: 576px) {
- .home__title{
+   /* @media screen and (min-width: 576px) { */
+/* .home__title{
   text-align: left;
 }
   .button{
     margin-left: 2%;
   }
     body {
-    /* margin: var(--header-height) 0 0 0; */
+    /* margin: var(--header-height) 0 0 0; 
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     color: var(--second-color);
-}
+} */
   /* .nav__logo{
     height: 45px;
     width: 80px;
@@ -684,7 +684,7 @@ h1 .type3{
   .nav__toggle {
     display: block;
   } */
-.home__img {
+/* .home__img {
     max-width: 100%;
     display: block;
     margin-left: 35%;
@@ -699,7 +699,7 @@ h1 .type3{
       padding-bottom: 2.5rem;
       flex-direction: row;
       align-self: flex-end;
-      /* margin-left: 40px; */
+      /* margin-left: 40px; 
     }
     .home__social-icon {
       margin-bottom: 0;
@@ -709,7 +709,7 @@ h1 .type3{
       width: 300px;
       bottom: 25%;
       left: 50%;
-      /* margin-left: 550px; */
+      /* margin-left: 550px; 
     }
     .button {
       display: inline-block;
@@ -741,13 +741,13 @@ h1 .type3{
       column-gap: 0.3rem;
       flex-direction: column;
       /* margin-left: 12px; */
-    /* }  */
+    /* }  
     .skills-main-container{
       display: flex;
       align-items: center;
       flex-direction: column;
       justify-content: space-around;
-      /* margin-left: 39%; */
+      /* margin-left: 39%; 
       column-gap: 4rem;
     }
     .work__container {
@@ -790,7 +790,7 @@ h1 .type3{
       justify-content: space-evenly;
       align-items: center;
     }
-  }
+  } */
   
   
  .exp__img{
@@ -942,7 +942,7 @@ div .skills__names{
    }
  }
  
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
    .bd-grid {
      margin-left: auto;
      margin-right: auto;
@@ -953,7 +953,7 @@ div .skills__names{
      /* padding: 10rem 0 2rem; */
    }
    .home__img {
-     /* width: 450px; */
+     /* width: 450px; 
      left: 0%;
 
 
@@ -967,7 +967,7 @@ div .skills__names{
    .button{
     float: left;
    }
- }
+ } */
  #myVideo {
   position: fixed;
   right: 0;
@@ -1113,8 +1113,4 @@ span{
 .exp h3,h4,p{
  margin-left: 7%;
 }
-
-
-.section{
-
 }
