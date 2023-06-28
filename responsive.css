@@ -244,10 +244,10 @@
   }
   
   .wrk__title-color{
-    margin-left: 20%;
+    margin-left: 32%;
     font-size: 70px;
-    margin-top: 8%;
-    margin-bottom: 20%;
+    margin-top: 5%;
+    margin-bottom: 7%;
   }
   .cardd{
   height: 350px;
@@ -378,7 +378,7 @@
   color: #E4D9FF;
   margin-bottom: 7%;
   }
-  .abt__title-color, .ed__title-color{
+  .abt__title-color, .ed__title-color, .abtt__title-color{
     margin-left: 40%;
     font-size: 70px;
   }
