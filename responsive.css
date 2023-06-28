@@ -174,10 +174,23 @@
     margin-left: 7%;
     margin-right: 4%;
     }
+    .wrk__title-color{
+      margin-left: 5%;
+      font-size: 50px;
+      margin-top: 8%;
+      margin-bottom: 20%;
+      text-align: center;
+    }
   
 }
 
 @media only screen and (min-width:577px) {
+  .wrk__title-color{
+    margin-left: 20%;
+    font-size: 70px;
+    margin-top: 8%;
+    margin-bottom: 20%;
+  }
   .cardd{
   height: 350px;
   }
