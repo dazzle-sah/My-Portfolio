@@ -5,25 +5,27 @@
     .home__img img{
       margin-top: 5%;
       width:250px;
-      margin-left: 2%;
+      margin-left: 5%;
     }
     .home__data{
       margin-top:10%;
     }
     .abt__title-color{
-      margin-left: 15%;
+      margin-left: 20%;
     font-size: 50px;
     margin-top: 8%;
     margin-bottom: 20%;
     }
     .ed__title-color{
-      margin-left: 15%;
+      margin-left: 18%;
       font-size: 50px;
       margin-top: 8%;
       margin-bottom: 10%;
     }
     .abt__data{
       margin-top: 5%;
+    margin-left: 15%;
+
     }
     .para{
       font-size: 18px;
@@ -51,7 +53,7 @@
     display: block;
   }
   .ed li{
-    margin-left: -20%;
+    margin-left: -12%;
     /* padding: 10%; */
     height: 170px;
     width:100% ;
@@ -146,6 +148,8 @@
   }
   .abt__data{
     margin-top: -5%;
+    margin-left: 10%;
+
   }
   .para{
     font-size: 22px;
