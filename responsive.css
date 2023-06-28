@@ -1,4 +1,22 @@
 @media only screen and (max-width:576px) {
+  .dett{
+    margin-left: 5%;
+  }
+  .ser{
+    padding-left: 3%;
+    height: 300px;
+    width: 280px;
+    margin-top: 10%;
+
+  }
+  .port{
+    height: 200px;
+    width: 100%;
+  }
+  .sec1{
+    display: block;
+    margin-top: 5%;
+  }
     .main-nav{
         display: block;
     }
@@ -24,8 +42,8 @@
     }
     .abt__data{
       margin-top: 5%;
-    margin-left: 15%;
-
+    margin-left: 13%;
+    max-width: 75%;
     }
     .para{
       font-size: 18px;
@@ -86,9 +104,156 @@
     font-size: 18px;
     font-weight: 400;
   }
+  .service{
+    display: block;
+    margin-left: 5%;
+  }
+  .skill__title-color{
+    font-weight: 1000;
+       margin-left: 10%;
+       font-size: 40px;
+  }
+  .skills__title-color{
+    font-weight: 1000;
+       margin-left: 20%;
+       font-size: 40px;
+       margin-bottom: 5%;
+  }
+  #slides .frame{
+    height: 300px;
+
+  }
+
+  h2{
+    margin-left: 5%;
+    margin-top: 5%;
+    color: #62a7cf;
+     font-weight: 400;
+        font-size: 20px;
+        font-family: 'Diphylleia', serif;
+        text-shadow: 0 0 2px #1dadd5;
+  }
+  .ser li{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .t{
+    margin-left: 2%;
+    display:block;
+  }
+  .par{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .imgg{
+    display: none;
+  }
+  .positionn{
+    font-size: 40px;
+    text-align: left;
+  word-spacing: 2px;
+  font-weight: 700;
+  }
+  .companyy{
+    font-size: 25px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+  }
+  .durationn{
+    font-size: 16px;
+    /* letter-spacing: 2px; */
+    word-spacing: 2px;
+  }
+  .sec2{
+    display: block;
+    /* margin-top: 12%; */
+  }
+  .subb{
+    /* height: 310px; */
+    margin-bottom: 15%;
+    margin-left: 7%;
+    margin-right: 4%;
+    }
+  
 }
 
 @media only screen and (min-width:577px) {
+  .cardd{
+  height: 350px;
+  }
+  .sec2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12%;
+  }
+  
+  .durationn{
+    font-size: 20px;
+    /* letter-spacing: 2px; */
+    word-spacing: 2px;
+  }
+  .positionn{
+    font-size: 50px;
+    text-align: left;
+  word-spacing: 2px;
+  font-weight: 700;
+ 
+  }
+  .companyy{
+    font-size: 30px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+  }
+  .par{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .port{
+    height: 400px;
+    width: 500px;
+  }
+  .t{
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+  }
+  .ser li{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  #slides .frame{
+    height: fit-content;
+  }
+  .sec1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+  
+  }
+  h2{
+    margin-top: 5%;
+    color: #62a7cf;
+     font-weight: 600;
+        font-size: 25px;
+        font-family: 'Diphylleia', serif;
+        text-shadow: 0 0 2px #1dadd5;
+  }
+  .skill__title-color{
+    margin-left: 33.5%;
+    font-weight: 1000;
+       font-size: 70px;
+  }
+  .service{
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 30%;
+    margin-left: 5%;
+  }
+  .ser{
+    padding-left: 3%;
+    height: 350px;
+    width: 300px;
+  }
   .yearr{
     margin-left: 29%;
     font-size: 22px;
@@ -149,7 +314,7 @@
   .abt__data{
     margin-top: -5%;
     margin-left: 10%;
-
+    max-width: 40%;
   }
   .para{
     font-size: 22px;
