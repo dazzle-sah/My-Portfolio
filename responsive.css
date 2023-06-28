@@ -2,13 +2,166 @@
     .main-nav{
         display: block;
     }
+    .home__img img{
+      margin-top: 5%;
+      width:250px;
+      margin-left: 2%;
+    }
+    .home__data{
+      margin-top:10%;
+    }
+    .abt__title-color{
+      margin-left: 15%;
+    font-size: 50px;
+    margin-top: 8%;
+    margin-bottom: 20%;
+    }
+    .ed__title-color{
+      margin-left: 15%;
+      font-size: 50px;
+      margin-top: 8%;
+      margin-bottom: 10%;
+    }
+    .abt__data{
+      margin-top: 5%;
+    }
+    .para{
+      font-size: 18px;
+  }
+  .infooo{
+    margin-left: -10%;
+    display: block;
 }
+.info ul{
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Diphylleia', serif;
+  color: #E4D9FF;
+  margin-bottom: 7%;
+  }
+  .but{
+    width: 50%;
+    height: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 15%;
+  }
+  .year{
+    display: block;
+  }
+  .ed li{
+    margin-left: -20%;
+    /* padding: 10%; */
+    height: 170px;
+    width:100% ;
+    color: #E4D9FF;
+    margin-bottom: 5%;
+  }
+  .cls, .clss{
+    font-size: 22px;
+    word-spacing: 2px;
+  }
+  .sch{
+    font-size: 18px;
+    margin-bottom: 1%;
+    font-weight: 600;
+  }
+  .grade{
+    font-size: 15px;
+    margin-bottom: 1%;
+  }
+  #cllg{
+    margin-bottom: 25%;
+  }
+  .pass{
+    margin-left: 0%;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .yearr{
+    margin-left: 0%;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
 @media only screen and (min-width:577px) {
+  .yearr{
+    margin-left: 29%;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .pass{
+    margin-left: 60%;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .sch{
+    font-size: 22px;
+    margin-bottom: 1%;
+    font-weight: 600;
+  }
+  .grade{
+    font-size: 18px;
+    margin-bottom: 1%;
+  }
+  .year{
+    display: flex;
+    flex-direction:row;
+  }
+  .cls, .clss{
+    font-size: 28px;
+    word-spacing: 2px;
+  }
+  .but{
+    width: 30%;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .ed li{
+    margin-left: -3%;
+    padding: 3%;
+    height: 170px;
+    width:100% ;
+    color: #E4D9FF;
+  }
+  .infooo{
+    margin-left: -5%;
+    display: flex;
+    flex-direction: row;
+}
+.info ul{
+  list-style: none;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Diphylleia', serif;
+  color: #E4D9FF;
+  margin-bottom: 7%;
+  }
+  .abt__title-color, .ed__title-color{
+    margin-left: 40%;
+    font-size: 70px;
+  }
+  .abt__data{
+    margin-top: -5%;
+  }
+  .para{
+    font-size: 22px;
+}
     .main-nav{
         margin-left: 42%;
         display: flex;
         flex-direction: row;
       }
+      .home__img img{
+        width:450px;
+      }
+      .home{
+        display: flex;
+        flex-direction: row;
+    }
 }
 @media only screen and (min-width:768px) {
     .contact-info p{
