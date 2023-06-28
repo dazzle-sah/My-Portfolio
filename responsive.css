@@ -33,6 +33,14 @@
     font-size: 50px;
     margin-top: 8%;
     margin-bottom: 20%;
+    text-align: center;
+    }
+    .abtt__title-color{
+      margin-left: 15%;
+    font-size: 50px;
+    margin-top: 8%;
+    margin-bottom: 20%;
+    text-align: center;
     }
     .ed__title-color{
       margin-left: 18%;
@@ -181,10 +189,60 @@
       margin-bottom: 20%;
       text-align: center;
     }
-  
+    .cis-text p{
+      width: 100%;
+    }
+    .ci-single{
+      margin-left: 5%;
+      margin: 2%;
+    }
+    .contact-info p{
+      margin-left: 5%;
+    }
+    .home__title{
+      margin-left: 0px;
+    }
+    h1{
+      font-size: 2rem;
+      margin-top: 1%;
+      margin-left: 0%;
+    }
+    h1 .type{
+      font-size: 25px;
+    }
+    h1 .type2, h1 .type3{
+      font-size: 25px;
+    }
+    .home__title-color{
+      font-size: 55px;
+    }
+    .sub{
+      margin-bottom: 10%;
+      height: 440px;
+    }
+    .sub img{
+      width: 100%;
+    }
+    .card{
+      height: 150px;
+    }
 }
 
 @media only screen and (min-width:577px) {
+  .card{
+    margin-bottom: 0%;
+    height: 150px;
+
+  }
+  h1{
+    font-size: 3.2rem;
+    margin-top: 1%;
+    margin-left: 30%;
+  }
+  .cis-text p{
+    width: 750px;
+  }
+  
   .wrk__title-color{
     margin-left: 20%;
     font-size: 70px;
