@@ -405,7 +405,7 @@
 }
 @media only screen and (min-width:768px) {
     .contact-info p{
-        width: 900px;
+        /* width: 900px; */
         font-size: 22px;
            margin-left: 20%;
     max-width: 100%;
@@ -420,7 +420,7 @@
 
 @media only screen and (min-width:992px) {
     .contact-info p{
-        width: 900px;
+        /* width: 900px; */
         font-size: 25px;
            margin-left: 10%;
     max-width: 100%;
@@ -443,7 +443,7 @@
 
 @media only screen and (min-width:1024px) {
   .contact-info p{
-    width: 1150px;
+    /* width: 1150px; */
     max-width: 100%;
     margin-left: 15%;
      font-size: 30px;
